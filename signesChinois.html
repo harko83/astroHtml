@@ -6,30 +6,51 @@
     <title>Astrologie</title>
 </head>
 
-<body bgcolor="lightblue">
+<body background="img/space0.jpg" widght=200% link="white" vLink="white" aLink="3300CC">
     <header>
         <h1 align="center">
-            <p style="color:red;font-size: 40px;"><strong><i><img src="img/chinois/astroCH.png">Astrologie Chinoise<img src="img/chinois/roueCH.png"></i></strong></p>
+            <p>
+                <font color="white"><strong><i><img src="img/astroCH.png">Astrologie Chinoise<img src="img/roueCH.png"></i></strong></font>
+            </p>
         </h1>
+        <nav id="navBarre">
+            <font color="purple">
+                <p align="center"><a href="index.html">Acceuil</a> | <a href="signes.html">Mon signe</a> | <a href="constellation.html">Constellations</a>| <a href="astroChinois.html">Astrologie chinoise</a> | <a href="signesChinois.html">Signes Chinois</a> | <a href="quizz.html">Quizz</a> | <a href="contact.html">Contact</a></p>
+            </font>
+        </nav>
     </header>
     <section>
-        <nav id="navBarre">
-            <p align="center"><a href="index.html" style="color:yellow">Acceuil</a> | <a href="signes.html" style="color:yellow">Mon signe</a> | <a href="astroChinois.html" style="color:yellow">Astrologie chinoise</a> | <a href="signesChinois.html" style="color:yellow">Signes Chinois</a> | <a href="quizz.html" style="color:yellow">Quizz</a> | <a href="form.html" style="color:yellow">Contact</a></p>
-        </nav>
+        <br />
         <article>
-            <h2 align="center"><strong>Signes chinois</strong></h2>
-            <p align="justify">Ils constituent un ensemble de douze animaux, ce sont, dans l'ordre : Souris ou Rat - Buffle ou Bœuf - Tigre - Lièvre, Lapin ou Chat - Dragon ou Lézard - Serpent - Cheval - Chèvre, Bouc ou Mouton - Singe - Coq ou Phénix - Chien - Cochon, Sanglier ou Eléphant.
-                Dans certains pays les ayant adoptés, le chat remplace le lapin et l'ours remplace le porc, il en va ainsi aussi pour d'autres animaux. Ces signes sont associés dans le cycle sexagésimal chinois aux douze rameaux terrestres, qui en combinaison avec les dix tiges célestes constituent le système chinois de décompte du temps le plus anciennement attesté.</p>
-            <p align="center"><img src="img/chinois/12animCH.jpg" alt="12 animaux chinois"></p>
+            <font color="white">
+                <h2 align="center"><strong>Signes chinois</strong></h2>
+                <p align="justify">Ils constituent un ensemble de douze animaux, ce sont, dans l'ordre : Souris ou Rat - Buffle ou Bœuf - Tigre - Lièvre, Lapin ou Chat - Dragon ou Lézard - Serpent - Cheval - Chèvre, Bouc ou Mouton - Singe - Coq ou Phénix - Chien - Cochon, Sanglier ou Eléphant.
+                    Dans certains pays les ayant adoptés, le chat remplace le lapin et l'ours remplace le porc, il en va ainsi aussi pour d'autres animaux. Ces signes sont associés dans le cycle sexagésimal chinois aux douze rameaux terrestres, qui en combinaison avec les dix tiges célestes constituent le système chinois de décompte du temps le plus anciennement attesté.</p>
+                <p align="center"><img align="center" src="img/12animCH.jpg" alt="12 animaux chinois" usemap="#signCmap"></p>
+                <map name="signCmap">
+                    <area shape="rect" coords="4,1,164,164" alt="rat" href="#rat">
+                    <area shape="rect" coords="170,1,330,164" alt="buffle" href="#buffle">
+                    <area shape="rect" coords="337,1,497,164" alt="tigre" href="#tigre">
+                    <area shape="rect" coords="503,1;665,164" alt="lapin" href="#lapin">
+                    <area shape="rect" coords="668,1,829,164" alt="dragon" href="#dragon">
+                    <area shape="rect" coords="835,1,995,164" alt="serpent" href="#serpent">
+                    <area shape="rect" coords="4,170,164,330" alt="cheval" href="#cheval">
+                    <area shape="rect" coords="170,170,330,330" alt="bouc" href="#bouc">
+                    <area shape="rect" coords="337,170,497,330" alt="singe" href="#singe">
+                    <area shape="rect" coords="503,170,665,330" alt="coq" href="#coq">
+                    <area shape="rect" coords="668,170,830,330" alt="chien" href="#chien">
+                    <area shape="rect" coords="835,170,995,330" alt="rat" href="#cochon">
+                </map>
+            </font>
         </article>
     </section>
     <section>
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="rat">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Rat</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/rat.jpg"></th>
+                <th rowspan="2"><img src="img/rat.jpg" alt="rat"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -42,12 +63,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="buffle">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Buffle</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/buffle.jpg"></th>
+                <th rowspan="2"><img src="img/buffle.jpg" alt="buffle"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -60,12 +81,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="tigre">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Tigre</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/tigre.jpg"></th>
+                <th rowspan="2"><img src="img/tigre.jpg" alt="tigre"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -78,12 +99,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="lapin">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le lapin</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/lapin.jpg"></th>
+                <th rowspan="2"><img src="img/lapin.jpg" alt="lapin"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -95,12 +116,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="dragon">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Dragon</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/dragon.jpg"></th>
+                <th rowspan="2"><img src="img/dragon.jpg" alt="dragon"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -113,12 +134,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="serpent">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Serpent</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/serpent.jpg"></th>
+                <th rowspan="2"><img src="img/serpent.jpg" alt="serpent"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -131,12 +152,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="cheval">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Cheval</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/cheval.jpg"></th>
+                <th rowspan="2"><img src="img/cheval.jpg" alt="cheval"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -149,12 +170,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="bouc">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Bouc</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/bouc.jpg"></th>
+                <th rowspan="2"><img src="img/bouc.jpg" alt="bouc"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -167,12 +188,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="singe">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Singe</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/singe.jpg"></th>
+                <th rowspan="2"><img src="img/singe.jpg" alt="singe"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -184,12 +205,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="coq">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le coq</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/coq.jpg"></th>
+                <th rowspan="2"><img src="img/coq.jpg" alt="coq"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -201,12 +222,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="chien">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Chien</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/chien.jpg"></th>
+                <th rowspan="2"><img src="img/chien.jpg" alt="chien"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
@@ -219,12 +240,12 @@
             </tr>
         </table>
         <br />
-        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey">
+        <table align="center" width="70%" cellspacing="2" cellpadding="5" border="0" bgcolor="lightgrey" id="cochon">
             <tr bgcolor="#ffffff">
                 <th colspan="4">Le Cochon</th>
             </tr>
             <tr bgcolor="#ffffff" align="center">
-                <th rowspan="2"><img src="img/chinois/cochon.jpg"></th>
+                <th rowspan="2"><img src="img/cochon.jpg" alt="cochon"></th>
                 <th>Caractère</th>
                 <th>Travail</th>
                 <th>Amour</th>
