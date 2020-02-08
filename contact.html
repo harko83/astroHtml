@@ -6,11 +6,11 @@
 </head>
 
 
-<body background="img/space0.jpg" widght=200% link="white" vLink="white" aLink="3300CC">
+<body background="img/space0.jpg" width=200% text="white" link="white" vLink="white" aLink="3300CC">
     <header>
         <h1 align="center">
             <p>
-                <font color="white"><strong><i><img src="img/contact01.png">Poser nous vos questions<img src="img/contact02.png"></i></strong></font>
+                <font color="white"><strong><i><img src="img/astro01.png">Astrologie<img src="img/astro02.png"></i></strong></font>
             </p>
         </h1>
         <nav id="navBarre">
@@ -19,8 +19,98 @@
             </font>
         </nav>
     </header>
-    
-	<p align="center"><font color="white" size="20em"> formulaire ici </font></p>
+    <fieldset align="center"><legend>Tarifs</legend>
+    <h1 align="center">Choisissez parmis nos Packs</h1>
+
+    <p align="center"><a href="#Pack"><img src="img/imagePromo.jpg" width="1000" height="400"></a></p>
+
+</fieldset>
+<form method="get" action="https://www.banque-france.fr/" target="_blank">
+<fieldset align="center" >
+    <legend>Informations</legend>
+<p>
+   <input type="radio" name="civi" value="Mme" /> Madame
+   <input type="radio" name="civi" value="Mlle" checked="true" /> Mademoiselle
+   <input type="radio" name="civi" value="Mr" /> Monsieur
+</p>
+
+<p>
+   Votre prénom :<br />
+   <input type="text" name="prenom" value="" autofocus="true" />
+</p>
+<p>
+   Votre nom :<br />
+   <input type="text" name="nom" value="" />
+</p>
+<p>
+   Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
+   <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
+   <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
+   <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 ans</label><br />
+   <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Plus de 40 ans</label>
+</p>
+<p>
+    <label for="ice-cream-choice">Choisissez votre Signe</label><br />
+<input list="formSigne" name="formSigne" />
+<datalist id="formSigne">
+    <option value="Bélier">
+    <option value="Taureau">
+    <option value="Gémeaux">
+    <option value="Canceer">
+    <option value="Lion">
+    <option value="Vierge">
+    <option value="Balance">
+    <option value="Scorpion">
+    <option value="Sagittaire">
+    <option value="Capricorne">
+    <option value="Verseau">
+    <option value="Poisson">
+</datalist>
+</p>
+<p>
+<label>Choisissez votre Pack:</label>
+
+<select name="tarif" id="Pack">
+    <option value="">--Choisissez votre Pack--</option>
+    <option value="19,90€">Pack Start</option>
+    <option value="cat">Pack Standard</option>
+    <option value="hamster">Pack Confort</option>
+    <option value="parrot">Pack Sérénité</option>
+    <option value="spider">Pack Happiness</option>
+    <option value="goldfish">Pack FeelGood</option>
+</select></p>
+<p> 
+   Quel type de prestation recherchez vous ?<br />
+   <input type="checkbox" name="interet" value="loc" /> Location de mobilier
+   <input type="checkbox" name="interet" value="achat" /> Achat de mobilier
+</p>
+<p>
+   Votre message :<br />
+   <iframe src="text.html#textarea"  ></iframe>
+</p>
+<p>
+   <input type="submit" value="Envoyer" />
+   <input type="reset" value="Annuler" />
+</p>
+</font>
+</p>
+</fieldset>
+</form>
+
+
+<p align="center"><font color="white" size="20em"><form name="mon-formulaire" action="https://www.banque-france.fr/" method="get">
+
+<h2 align="center"><font size="10"><font color="white">Nos Partenaires</font color></font size></h2>
+<p>
+    <marquee behavior="alternate" scrollamount="1">
+        <img src="img/imagePub1.jpg" width="300" height="100">
+        <img src="img/imagePub2.jpg" width="300" height="100">
+        <img src="img/imagePub3.jpg" width="300" height="100">
+        <img src="img/imagePub4.jpg" width="300" height="100">
+        <img src="img/imagePub5.jpg" width="300" height="100">
+    </marquee>
+</p>
 </body>
+
 
 </html>
