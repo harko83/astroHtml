@@ -1,116 +1,139 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<title>Contacter</title>
-</head>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title>Contacter-nous</title>
+		</head>
+		<body background="img/space0.jpg" text="white" link="white" vLink="white" aLink="3300CC">
+			<header>
+				<h1 align="center">
+				<font color="white"><strong><i><img src="img/astro01.png" alt="image">Astrologie<img src="img/astro02.png" alt="image">
+					</i></strong></font>
+				</h1>
+				<nav id="navBarre">
+				<font color="purple">
+					<p align="center"><a href="index.html">Acceuil</a> | <a href="signes.html">Mon signe</a> | <a href="constellation.html">Constellations</a>| <a href="astroChinois.html">Astrologie chinoise</a> | <a href="signesChinois.html">Signes Chinois</a> | <a href="quizz.html">Quizz</a> | <a href="contact.html">Contact</a></p>
+				</font>
+				</nav>
+			</header>
+			<fieldset>
+				<legend>Tarifs</legend>
+					<h1 align="center">Choisissez parmis vos Packs</h1>
+						<p align="center"><a href="#Pack"><img src="img/imagePromo.jpg" width="1000" height="400" alt="image promo"></a></p>
+			</fieldset>
+
+				<form method="get" action="https://www.banque-france.fr/" target="_blank">
+					<fieldset>
+						<legend>Informations</legend>
+						<p>
+							<input type="radio" name="civi" value="Mme" /> Madame
+							<input type="radio" name="civi" value="Mlle" checked /> Mademoiselle
+							<input type="radio" name="civi" value="Mr" /> Monsieur
+						</p>
+						<p>Votre nom :<br />
+							<input type="text" name="nom" placeholder="votre nom" maxlength="10" />
+						</p>
+						<p>Votre prénom :<br />
+							<input type="text" name="prenom" placeholder="votre prénom" maxlength="10" />
+						</p>
+						<p>Votre email :<br />
+							<input type="email" name="email" placeholder="votre email" maxlength="50" />
+						</p>
+						<p>Votre telephone :<br />
+							<input type="tel" name="tel" placeholder="0612345678" maxlength="20" />
+						</p>
+						<p>Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
+							<input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
+							<input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
+							<input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 ans</label><br />
+							<input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Plus de 40 ans</label>
+						</p>
+						<p>
+							<label for="ice-cream-choice">Choisissez votre Signe:</label><br />
+								<input list="formSigne" name="formSigne" />
+									<datalist id="formSigne">
+										<option value="Bélier">
+										<option value="Taureau">
+										<option value="Gémeaux">
+										<option value="Canceer">
+										<option value="Lion">
+										<option value="Vierge">
+										<option value="Balance">
+										<option value="Scorpion">
+										<option value="Sagittaire">
+										<option value="Capricorne">
+										<option value="Verseau">
+										<option value="Poisson">
+									</datalist>
+							</p>
+							<p>
+								<label>Choisissez votre Pack:</label><br />
+									<select name="tarif" id="Pack">
+										<option value="">--Choisissez votre Pack--</option>
+										<option value="">Pack Start</option>
+										<option value="">Pack Standard</option>
+										<option value="">Pack Confort</option>
+										<option value="">Pack Sérénité</option>
+										<option value="">Pack Happiness</option>
+										<option value="">Pack FeelGood</option>
+									</select>
+							</p>
+							<p>
+								<label>Votre message:</label><br />  
+					<iframe src="text.html#textarea"  frameborder="0"></iframe>
+							</p>
+							<p>
+								<fieldset  width="200">
+								<legend>Informations CB:</legend><br />
+									<input type="radio" name="CB" /> <label >VISA</label><br />
+									<input type="radio" name="CB" /> <label >MASTERCARD</label><br />
+									<input type="radio" name="CB" /> <label>AMEX</label><br />
+										<p>Votre numero de carte:<br />
+											<input type="number" name="number" placeholder="1234-5678-1234-5678"/>
+										</p>
+										<p>Votre code secret:<br />
+											<input type="number" name="number" placeholder="123"/>
+										</p>
+										<p>Nom du porteur:<br />
+											<input type="text" name="nom" placeholder="dupond" maxlength="20" />
+										</p>
+										<p></p>
+										<div>
+  										<input type="checkbox" checked>
+  											<label for="scales">Accepeter les conditions generales</label>
+										  <input type="checkbox" >
+										  	<label for="horns">S'abonner à la newletters</label>
+										  <input type="checkbox" >
+										  	<label for="horns">Recevoir des pubs par telephone</label>
+										</div>
+										<p>
+											<input type="submit" value="Envoyer" />
+											<input type="reset" value="Annuler" />
+										</p>
+									</fieldset>
+									</p>
+  
+					</form>
 
 
-<body background="img/space0.jpg" width=200% text="white" link="white" vLink="white" aLink="3300CC">
-    <header>
-        <h1 align="center">
-            <p>
-                <font color="white"><strong><i><img src="img/astro01.png">Astrologie<img src="img/astro02.png"></i></strong></font>
-            </p>
-        </h1>
-        <nav id="navBarre">
-            <font color="purple">
-                <p align="center"><a href="index.html">Acceuil</a> | <a href="signes.html">Mon signe</a> | <a href="constellation.html">Constellations</a>| <a href="astroChinois.html">Astrologie chinoise</a> | <a href="signesChinois.html">Signes Chinois</a> | <a href="quizz.html">Quizz</a> | <a href="contact.html">Contact</a></p>
-            </font>
-        </nav>
-    </header>
-    <fieldset align="center"><legend>Tarifs</legend>
-    <h1 align="center">Choisissez parmis nos Packs</h1>
-
-    <p align="center"><a href="#Pack"><img src="img/imagePromo.jpg" width="1000" height="400"></a></p>
-
-</fieldset>
-<form method="get" action="https://www.banque-france.fr/" target="_blank">
-<fieldset align="center" >
-    <legend>Informations</legend>
-<p>
-   <input type="radio" name="civi" value="Mme" /> Madame
-   <input type="radio" name="civi" value="Mlle" checked="true" /> Mademoiselle
-   <input type="radio" name="civi" value="Mr" /> Monsieur
-</p>
-
-<p>
-   Votre prénom :<br />
-   <input type="text" name="prenom" value="" autofocus="true" />
-</p>
-<p>
-   Votre nom :<br />
-   <input type="text" name="nom" value="" />
-</p>
-<p>
-   Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
-   <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
-   <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
-   <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 ans</label><br />
-   <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Plus de 40 ans</label>
-</p>
-<p>
-    <label for="ice-cream-choice">Choisissez votre Signe</label><br />
-<input list="formSigne" name="formSigne" />
-<datalist id="formSigne">
-    <option value="Bélier">
-    <option value="Taureau">
-    <option value="Gémeaux">
-    <option value="Canceer">
-    <option value="Lion">
-    <option value="Vierge">
-    <option value="Balance">
-    <option value="Scorpion">
-    <option value="Sagittaire">
-    <option value="Capricorne">
-    <option value="Verseau">
-    <option value="Poisson">
-</datalist>
-</p>
-<p>
-<label>Choisissez votre Pack:</label>
-
-<select name="tarif" id="Pack">
-    <option value="">--Choisissez votre Pack--</option>
-    <option value="19,90€">Pack Start</option>
-    <option value="cat">Pack Standard</option>
-    <option value="hamster">Pack Confort</option>
-    <option value="parrot">Pack Sérénité</option>
-    <option value="spider">Pack Happiness</option>
-    <option value="goldfish">Pack FeelGood</option>
-</select></p>
-<p> 
-   Quel type de prestation recherchez vous ?<br />
-   <input type="checkbox" name="interet" value="loc" /> Location de mobilier
-   <input type="checkbox" name="interet" value="achat" /> Achat de mobilier
-</p>
-<p>
-   Votre message :<br />
-   <iframe src="text.html#textarea"  ></iframe>
-</p>
-<p>
-   <input type="submit" value="Envoyer" />
-   <input type="reset" value="Annuler" />
-</p>
-</font>
-</p>
-</fieldset>
-</form>
-
-
-<p align="center"><font color="white" size="20em"><form name="mon-formulaire" action="https://www.banque-france.fr/" method="get">
-
+<form name="mon-formulaire" action="https://www.banque-france.fr/" method="get">
 <h2 align="center"><font size="10"><font color="white">Nos Partenaires</font color></font size></h2>
 <p>
-    <marquee behavior="alternate" scrollamount="1">
-        <img src="img/imagePub1.jpg" width="300" height="100">
-        <img src="img/imagePub2.jpg" width="300" height="100">
-        <img src="img/imagePub3.jpg" width="300" height="100">
-        <img src="img/imagePub4.jpg" width="300" height="100">
-        <img src="img/imagePub5.jpg" width="300" height="100">
-    </marquee>
-</p>
-</body>
+<marquee behavior="alternate" scrollamount="1">
+<img src="img/imagePub1.jpg" width="300" height="100">
+<img src="img/imagePub2.jpg" width="300" height="100">
+<img src="img/imagePub3.jpg" width="300" height="100">
+<img src="img/imagePub4.jpg" width="300" height="100">
+<img src="img/imagePub5.jpg" width="300" height="100">
+</marquee>
+</p>	
 
+</body>
+<footer>
+<label for="story"></label>
+<textarea id="story" name="story" rows="1" cols="1">BOUH!!!
+</textarea><a href="#"><img src="img/gifPika.gif" height="40" width="60">
+<font size="2">Retour en haut de page</font size></a>  
+</footer>
 
 </html>
